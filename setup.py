@@ -2,9 +2,9 @@ from setuptools import setup
 
 
 setup(
-        name='integral-client',
+        name='bcolors',
         version='1.0.4',
-        py_modules= ['integralclient','ddaclient','service_exception'],
+        py_modules= ['bcolors'],
         url="http://odahub.io",
         package_data     = {
             "": [
