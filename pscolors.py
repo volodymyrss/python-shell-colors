@@ -12,6 +12,7 @@ class bcolors:
     MAGENTA= '\033[0;35m'
     WARNING = '\033[93m'
     YEL = '\033[93m'
+    YELLOW = '\033[93m'
     FAIL = '\033[91m'
     RED = '\033[91m'
     ENDC = '\033[0m'
