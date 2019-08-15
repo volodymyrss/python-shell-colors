@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
         name='pscolors',
-        version='1.0.0',
+        version='1.0.5',
         py_modules= ['pscolors'],
         url="http://odahub.io",
         package_data     = {
