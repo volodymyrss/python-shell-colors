@@ -1,6 +1,6 @@
 
 
 def test_simple():
-    import bcolors
+    import pscolors
 
-    print(bcolors.render("{RED}red{/} not red"))
+    print(pscolors.render("{RED}red{/} not red"))

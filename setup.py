@@ -2,9 +2,9 @@ from setuptools import setup
 
 
 setup(
-        name='bcolors',
-        version='1.0.4',
-        py_modules= ['bcolors'],
+        name='pscolors',
+        version='1.0.0',
+        py_modules= ['pscolors'],
         url="http://odahub.io",
         package_data     = {
             "": [
