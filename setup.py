@@ -40,11 +40,10 @@ setup(
     include_package_data=True,
     keywords='python_shell_colors',
     name='python_shell_colors',
-    packages=find_packages(include=['python_shell_colors', 'python_shell_colors.*']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/volodymyrss/python_shell_colors',
-    version='version='version='0.1.4''',
+    version='0.1.2',
     zip_safe=False,
 )
