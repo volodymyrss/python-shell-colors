@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 with open('README.md') as readme_file:
     readme = readme_file.read()
 
-requirements = ['Click>=7.0', ]
+requirements = []
 
 setup_requirements = ['pytest-runner', ]
 
@@ -29,11 +29,6 @@ setup(
         'Programming Language :: Python :: 3.8',
     ],
     description="Python Shell Colors",
-    entry_points={
-        'console_scripts': [
-            'python_shell_colors=python_shell_colors.cli:main',
-        ],
-    },
     install_requires=requirements,
     license="MIT license",
     long_description=readme,
@@ -43,7 +38,7 @@ setup(
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/volodymyrss/python_shell_colors',
+    url='https://github.com/volodymyrss/python-shell-colors',
     version='0.1.9',
     zip_safe=False,
 )
